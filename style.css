@@ -32,7 +32,7 @@ header nav a {
     opacity: 0.5;
 }
 
-a:hover{
+a:hover {
     opacity: 1;
 }
 
@@ -45,25 +45,28 @@ main {
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 1.875rem;
 }
 
-main img{
+main img {
     max-width: 100%;
     border-radius: 0.375rem;
+    height: 25rem;
+    width: 45rem;
 }
 
-.about-us h2{
+.about-us h2 {
     text-align: center;
     padding: 0.625rem 0.625rem;
     font-weight: 800;
     text-transform: uppercase;
 }
 
-.about-us p{
+.about-us p {
     letter-spacing: 1px;
 }
 
-.F-btn{
+.F-btn {
     padding: 0.625rem 0.625rem;
     margin-left: 9.375rem;
     margin-top: 1.25rem;
@@ -71,32 +74,32 @@ main img{
     opacity: 0.5;
 }
 
-.F-btn:hover{
+.F-btn:hover {
     opacity: 1;
 }
 
-.content{
+.content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 3.125rem;
 }
 
-.services h2{
+.services h2 {
     text-align: center;
     text-transform: uppercase;
     margin-top: 1.875rem;
 }
 
-footer{
+footer {
     background-color: rgb(154, 154, 249);
     padding: 3.125rem 3.125rem;
 }
 
-footer h1{
+footer h1 {
     text-align: center;
 }
 
-footer button{
+footer button {
     padding: 1.875rem 1.875rem;
     border-radius: 0.625rem;
     width: 25%;
@@ -106,20 +109,21 @@ footer button{
 }
 
 /* media queries */
-@media  screen and (max-width: 960px) {
-    main img{
-        grid-column: 1 / span 2;
-    }
-    .about-us{
+@media screen and (max-width: 960px) {
+    main img {
         grid-column: 1 / span 2;
     }
 
-    .content{
+    .about-us {
+        grid-column: 1 / span 2;
+    }
+
+    .content {
         display: block;
     }
 
-    .content p{
-            text-align: center;
+    .content p {
+        text-align: center;
     }
 
 
